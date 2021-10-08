@@ -7,5 +7,6 @@ export const GET_ME = gql`
         email
         password
         savedBooks
+        bookCount
     }
 `;

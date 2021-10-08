@@ -31,6 +31,7 @@ export const SAVE_BOOK = gql`
             email
             password
             savedBooks
+            bookCount
         }
     }
 `;
@@ -43,6 +44,7 @@ export const REMOVE_BOOKS = gql`
             email
             password
             savedBooks
+            bookCount
         }
     }
 `;
